@@ -1,0 +1,6 @@
+com\example\encryption\EncryptionService.class
+com\example\auth\AuthService.class
+com\example\authorization\AuthorizationService.class
+com\example\recommendation\RecommendationService.class
+com\example\tasks\TaskService.class
+com\example\analytics\AnalyticsService.class
