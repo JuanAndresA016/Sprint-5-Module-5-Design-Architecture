@@ -1,0 +1,7 @@
+@startuml
+
+class AnalyticsService {
+    +generateReport()
+}
+
+@enduml

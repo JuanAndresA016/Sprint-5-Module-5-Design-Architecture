@@ -1,0 +1,7 @@
+@startuml
+
+class TaskService {
+    +createTask(taskName)
+}
+
+@enduml

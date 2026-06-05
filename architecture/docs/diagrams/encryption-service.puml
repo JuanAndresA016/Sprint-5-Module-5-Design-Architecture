@@ -1,0 +1,7 @@
+@startuml
+
+class EncryptionService {
+    +encrypt(text)
+}
+
+@enduml
