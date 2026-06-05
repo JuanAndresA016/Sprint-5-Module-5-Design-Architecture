@@ -9,37 +9,37 @@ model {
         authService = container "Authentication Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/auth-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/auth-service.puml"
         }
 
         authorizationService = container "Authorization Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/authorization-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/authorization-service.puml"
         }
 
         taskService = container "Task Management Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/task-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/task-service.puml"
         }
 
         recommendationService = container "Recommendation Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/recommendation-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/recommendation-service.puml"
         }
 
         analyticsService = container "Analytics Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/analytics-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/analytics-service.puml"
         }
 
         encryptionService = container "Encryption Service" {
             technology "Java"
 
-            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/docs/diagrams/encryption-service.puml"
+            url "https://github.com/JuanAndresA016/Sprint-5-Module-5-Design-Architecture/blob/main/architecture/docs/diagrams/encryption-service.puml"
         }
 
         user -> authService "Authenticates"
